@@ -1,0 +1,173 @@
+<div class="vstack gap-4 pt-4">
+	
+	<!-- About Me Section -->
+	<div class="card shadow border-2" style="border-color: #faf884">
+		<div class="card-body" style="background-color: #f2a2e8;">
+			<div class="row align-items-center">
+				<div class="col-md-4 text-center">
+					<%= image_tag("19.png",class:"rounded-circle", style:"height: 200px", alt:"profile picture") %>
+				</div>
+				<div class="col-md-8 text-center">
+					<p style="font-size: 30px;">Hi! I'm Kyle Lugo</p>
+					<p>Computer Science graduate that loves learning how things work.</p>
+				</div>
+				
+			</div>
+		</div>
+		<div class="card-footer">
+			<div class="d-flex justify-content-around">
+				<%= link_to(image_tag("GitHub-Mark-32px.png", style:"", alt:"Github Link"), "https://github.com/kjl56", target: '_blank')%>
+				<%= link_to(image_tag("LI-In-Bug.png", style:"height: 32px; width: 37.6px", alt:"Linked In Link"), "https://www.linkedin.com/in/kyle-lugo-23265712b/", target: '_blank')%>
+				<%= link_to(image_tag("EMAIL.png", style:"height: 32px; width: 32px", alt:"Github Link"), "mailto:kjl56@uakron.edu", target: "_blank")%>
+			</div>
+		</div>
+	</div>
+
+	<!-- Education Section -->
+	<div class="card shadow border-2" style="border-color: #baed91;">
+		<h1 class="card-header text-center" style="background-color: #baed91">Education</h1>
+		<div class="card-body">
+			<h4><%= link_to 'The University of Akron', 'https://www.uakron.edu', target: '_blank', class:"nav-link p-0" %></h4>
+			<p>Bachelor of Science in Computer Science, 2021</p>
+			<h5>Relevant Coursework</h5>
+			<div class="nav">
+				<div class=" nav-link disabled">Data Structures</div>
+				<div class=" nav-link disabled">Algorithms</div>
+				<div class=" nav-link disabled">Software Engineering</div>
+				<div class=" nav-link disabled">Object-oriented Programming</div>
+				<div class=" nav-link disabled">Operating Systems</div>
+				<div class=" nav-link disabled">Internet Systems Programming</div>
+				<div class=" nav-link disabled">Parallel Processing</div>
+				<div class=" nav-link disabled">Applied Machine Learning</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Projects Section 
+	<div class="card shadow border-2" style="border-color: #b2cefe">
+		<h1 class="card-header text-center" style="background-color: #b2cefe">Projects</h1>
+		<div class="card-body">
+			<div class="row align-items-center">
+
+				<div class="card col-md-4">
+					<%= image_tag("chung.png", class:"card-img-top", style:"height: 200px", alt:"screenshot from the game of big chungus in a swamp") %>
+					<div class="card-body">
+						<h5 class="card-title">Big Chungus' Grand Adventure</h5>
+						<p class="card-text">A short adventure parody game featuring the character Big Chungus</p>
+					</div>
+				</div>
+
+				<div class="card col-md-4">
+					<%= image_tag("19.png", class:"card-img-top", style:"height: 200px", alt:"screenshot of big chungus in a swamp") %>
+					<div class="card-body">
+						<h5 class="card-title">Big Chungus' Grand Adventure</h5>
+						<p class="card-text">A short adventure parody game featuring the character Big Chungus</p>
+					</div>
+				</div>
+
+				<div class="card col-md-4">
+					<%= image_tag("chung.png", class:"card-img-top", style:"height: 200px", alt:"screenshot of big chungus in a swamp") %>
+					<div class="card-body">
+						<h5 class="card-title">Big Chungus' Grand Adventure</h5>
+						<p class="card-text">A short adventure parody game featuring the character Big Chungus</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>-->
+
+	<!-- Skills Section -->
+	<div class="card shadow border-2" style="border-color: #f8b88b">
+		<h1 class="card-header text-center" style="background-color: #f8b88b">Skills</h1>
+		<div class="card-body vstack gap-4">
+			<div class="card border-2 p-2" style="border-color: #f8b88b">
+				<h3 class="border-bottom border-1">languages and databases</h3>
+				<div class="ps-1 row row-cols-1 row-cols-md-2 gap-5">
+					<div class="col card border-0" style="width: 7rem;">
+						<%= image_tag("ISO-CPP-Logo.svg", alt:"C + + Logo") %>
+						<p class="card-text text-center">C++</p>
+					</div>
+					<div class="col card border-0" style="width: 7rem;">
+						<%= image_tag("HTML5-logo-and-wordmark.svg", alt:"H T M L 5 Logo") %>
+						<p class="card-text text-center">HTML5</p>
+					</div>
+					<div class="col card border-0" style="width: 7rem;">
+						<%= image_tag("CSS3-logo-and-wordmark.svg", alt:"C S S 3 Logo") %>
+						<p class="card-text text-center">CSS3</p>
+					</div>
+					<div class="col card border-0" style="width: 7rem;">
+						<%= image_tag("Javascript-Logo.png", alt:"Javascript Logo") %>
+						<p class="card-text text-center">Javascript</p>
+					</div>
+					<div class="col card border-0" style="width: 7rem;">
+						<%= image_tag("Postgresql-Logo.svg", alt:"post gress sequel Logo") %>
+						<p class="card-text text-center">PostgreSQL</p>
+					</div>
+					<div class="col card border-0" style="width: 7rem;">
+						<%= image_tag("PHP-logo.svg", alt:"P H P Logo") %>
+						<p class="card-text text-center">PHP</p>
+					</div>
+				</div>
+			</div>
+			<div class="card border-2 p-2" style="border-color: #f8b88b">
+				<h3 class="border-bottom border-1">frameworks</h3>
+				<div class="ps-1 row row-cols-1 row-cols-md-2 gap-5">
+					<div class="col card border-0" style="width: 7rem;">
+						<%= image_tag("ROR-Logo.png", alt:"Ruby on Rails Logo") %>
+						<p class="card-text text-center">Ruby on Rails</p>
+					</div>
+					<div class="col card border-0" style="width: 7rem;">
+						<%= image_tag("bootstrap-logo.svg", alt:"bootstrap Logo") %>
+						<p class="card-text text-center">Bootstrap</p>
+					</div>
+				</div>
+			</div>
+			<div class="card border-2 p-2" style="border-color: #f8b88b">
+				<h3 class="border-bottom border-1">tools</h3>
+				<div class="ps-1 row row-cols-1 row-cols-md-2 gap-5">
+					<div class="col card border-0" style="width: 7rem;">
+						<%= image_tag("Git-Icon.png", alt:"Git Logo") %>
+						<p class="card-text text-center">Git</p>
+					</div>
+					<div class="col card border-0" style="width: 7rem;">
+						<%= image_tag("heroku-logo-stroke-purple.png", alt:"Heroku Logo") %>
+						<p class="card-text text-center">Heroku</p>
+					</div>
+					<div class="col card border-0" style="width: 7rem;">
+						<%= image_tag('old-unity-logo.png', alt:"old unity logo") %>
+						<p class="card-text text-center">Unity</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Experience Section -->
+	<div class="card shadow border-2" style="border-color: #fea3aa">
+		<h1 class="card-header text-center" style="background-color: #fea3aa">Experience</h1>
+		<div class="card-body vstack gap-4">
+			<div class="card border-2 p-2" style="border-color: #fea3aa">
+				<h4 class="border-bottom border-1"><%= link_to "Zipcon", 'https://zipcon.weebly.com', target: '_blank', class:"nav-link p-0" %></h4>
+				<p><b>Event Organizer</b> (volunteer position)</p>
+				<ul>
+					<li>Yearly student-run convention</li>
+					<li>Communicated with vendors and school officials regarding events and floor plans to ensure successful execution of the event</li>
+					<li>Delegated roles and responsibilities as needed to meet and set deadlines</li>
+				</ul>
+				<p class="card-footer text-muted">2017-2021 | Akron, OH</p>
+			</div>
+			<div class="card border-2 p-2" style="border-color: #fea3aa">
+				<h4 class="border-bottom border-1"><%= link_to "Dave's Markets", 'https://www.davesmarkets.com', target: '_blank', class:"nav-link p-0" %></h4>
+				<p><b>Stocker</b></p>
+				<ul>
+					<li>Stocking merchandise</li>
+					<li>Assisting customers who are in need of help</li>
+					<li>Keeping backroom inventory neat and organized</li>
+				</ul>
+				<p class="card-footer text-muted">October 2017-July 2021 | Akron, OH</p>
+			</div>
+		</div>
+	</div>
+
+</div>
