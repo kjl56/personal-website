@@ -50,7 +50,7 @@
 			<div class="row align-items-center">
 
 				<div class="card col-md-4">
-					<%= image_tag("chung.png", class:"card-img-top", style:"height: 200px", alt:"screenshot from the game of big chungus in a swamp") %>
+					<% image_tag("chung.png", class:"card-img-top", style:"height: 200px", alt:"screenshot from the game of big chungus in a swamp") %>
 					<div class="card-body">
 						<h5 class="card-title">Big Chungus' Grand Adventure</h5>
 						<p class="card-text">A short adventure parody game featuring the character Big Chungus</p>
@@ -58,7 +58,7 @@
 				</div>
 
 				<div class="card col-md-4">
-					<%= image_tag("19.png", class:"card-img-top", style:"height: 200px", alt:"screenshot of big chungus in a swamp") %>
+					<% image_tag("19.png", class:"card-img-top", style:"height: 200px", alt:"screenshot of big chungus in a swamp") %>
 					<div class="card-body">
 						<h5 class="card-title">Big Chungus' Grand Adventure</h5>
 						<p class="card-text">A short adventure parody game featuring the character Big Chungus</p>
@@ -66,7 +66,7 @@
 				</div>
 
 				<div class="card col-md-4">
-					<%= image_tag("chung.png", class:"card-img-top", style:"height: 200px", alt:"screenshot of big chungus in a swamp") %>
+					<% image_tag("chung.png", class:"card-img-top", style:"height: 200px", alt:"screenshot of big chungus in a swamp") %>
 					<div class="card-body">
 						<h5 class="card-title">Big Chungus' Grand Adventure</h5>
 						<p class="card-text">A short adventure parody game featuring the character Big Chungus</p>
@@ -75,7 +75,7 @@
 
 			</div>
 		</div>
-	</div>-->
+	</div> -->
 
 	<!-- Skills Section -->
 	<div class="card shadow border-2" style="border-color: #f8b88b">
@@ -83,63 +83,78 @@
 		<div class="card-body vstack gap-4">
 			<div class="card border-2 p-2" style="border-color: #f8b88b">
 				<h3 class="border-bottom border-1">languages and databases</h3>
-				<div class="ps-1 row row-cols-1 row-cols-md-2 gap-5">
-					<div class="col card border-0" style="width: 7rem;">
-						<%= image_tag("ISO-CPP-Logo.svg", alt:"C + + Logo") %>
+				
+				<div class="row px-1">
+					<div class="col-md-2 col-sm-4 col-6 card border-0">
+						<%= image_tag("ISO-CPP-Logo.svg", class:"card-img-top", style:"height: 100px", alt:"C + + Logo") %>
 						<p class="card-text text-center">C++</p>
 					</div>
-					<div class="col card border-0" style="width: 7rem;">
-						<%= image_tag("HTML5-logo-and-wordmark.svg", alt:"H T M L 5 Logo") %>
+				
+					<div class="col-md-2 col-sm-4 col-6 card border-0">
+						<%= image_tag("HTML5-logo-and-wordmark.svg", style:"height: 100px", class:"card-img-top", alt:"H T M L 5 Logo") %>
 						<p class="card-text text-center">HTML5</p>
 					</div>
-					<div class="col card border-0" style="width: 7rem;">
-						<%= image_tag("CSS3-logo-and-wordmark.svg", alt:"C S S 3 Logo") %>
+					
+					<div class="col-md-2 col-sm-4 col-6 card border-0">
+						<%= image_tag("CSS3-logo-and-wordmark.svg", style:"height: 100px", class:"card-img-top", alt:"C S S 3 Logo") %>
 						<p class="card-text text-center">CSS3</p>
 					</div>
-					<div class="col card border-0" style="width: 7rem;">
-						<%= image_tag("Javascript-Logo.png", alt:"Javascript Logo") %>
+					
+					<div class="col-md-2 col-sm-4 col-6 card border-0">
+						<%= image_tag("Javascript-Logo.png", class:"card-img-top mx-auto", style:"height: 100px; width: 100px;", alt:"Javascript Logo") %>
 						<p class="card-text text-center">Javascript</p>
 					</div>
-					<div class="col card border-0" style="width: 7rem;">
-						<%= image_tag("Postgresql-Logo.svg", alt:"post gress sequel Logo") %>
+
+					<div class="col-md-2 col-sm-4 col-6 card border-0">
+						<%= image_tag("Postgresql-Logo.svg", class:"card-img-top", style:"height: 100px", alt:"post gress sequel Logo") %>
 						<p class="card-text text-center">PostgreSQL</p>
 					</div>
-					<div class="col card border-0" style="width: 7rem;">
-						<%= image_tag("PHP-logo.svg", alt:"P H P Logo") %>
+
+					<div class="col-md-2 col-sm-4 col-6 card border-0">
+						<%= image_tag("PHP-logo.svg", class:"card-img-top", style:"height: 100px", alt:"P H P Logo") %>
 						<p class="card-text text-center">PHP</p>
 					</div>
 				</div>
+
 			</div>
+
 			<div class="card border-2 p-2" style="border-color: #f8b88b">
 				<h3 class="border-bottom border-1">frameworks</h3>
-				<div class="ps-1 row row-cols-1 row-cols-md-2 gap-5">
-					<div class="col card border-0" style="width: 7rem;">
-						<%= image_tag("ROR-Logo.png", alt:"Ruby on Rails Logo") %>
+				
+				<div class="row px-1">
+					<div class="col-md-2 col-sm-4 col-6 card border-0">
+						<%= image_tag("Ruby-On-Rails-Logo.svg", class:"card-img-top", style:"height: 100px", alt:"Ruby on Rails Logo") %>
 						<p class="card-text text-center">Ruby on Rails</p>
 					</div>
-					<div class="col card border-0" style="width: 7rem;">
-						<%= image_tag("bootstrap-logo.svg", alt:"bootstrap Logo") %>
+
+					<div class="col-md-2 col-sm-4 col-6 card border-0">
+						<%= image_tag("bootstrap-logo.svg", class:"card-img-top mx-auto", style:"height: 100px; width: 125px", alt:"bootstrap Logo") %>
 						<p class="card-text text-center">Bootstrap</p>
 					</div>
 				</div>
 			</div>
+
 			<div class="card border-2 p-2" style="border-color: #f8b88b">
 				<h3 class="border-bottom border-1">tools</h3>
-				<div class="ps-1 row row-cols-1 row-cols-md-2 gap-5">
-					<div class="col card border-0" style="width: 7rem;">
-						<%= image_tag("Git-Icon.png", alt:"Git Logo") %>
+
+				<div class="row px-1">
+					<div class="col-md-2 col-sm-4 col-6 card border-0">
+						<%= image_tag("Git-Icon.png", style:"height: 100px; width: auto", class:"card-img-top mx-auto", alt:"Git Logo") %>
 						<p class="card-text text-center">Git</p>
 					</div>
-					<div class="col card border-0" style="width: 7rem;">
-						<%= image_tag("heroku-logo-stroke-purple.png", alt:"Heroku Logo") %>
+
+					<div class="col-md-2 col-sm-4 col-6 card border-0">
+						<%= image_tag("heroku-logo-stroke-purple.png", style:"height: 100px; width: auto", class:"card-img-top mx-auto", alt:"Heroku Logo") %>
 						<p class="card-text text-center">Heroku</p>
 					</div>
-					<div class="col card border-0" style="width: 7rem;">
-						<%= image_tag('old-unity-logo.png', alt:"old unity logo") %>
+
+					<div class="col-md-2 col-sm-4 col-6 card border-0">
+						<%= image_tag('old-unity-logo.png', style:"height: 100px; width: auto", class:"card-img-top mx-auto", alt:"old unity logo") %>
 						<p class="card-text text-center">Unity</p>
 					</div>
 				</div>
 			</div>
+
 		</div>
 	</div>
 
