@@ -1,12 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello, my **Kyle Lugo**, and this is my personal website for demonstrating my web development abilities. Additionally I am showing how I leverage source control to collaborate with others when making updates to the website. I hope you enjoy your visit!
 
-Things you may want to cover:
+## General Information
+* This website was created using: **Ruby version** = [ruby-3.0.3](https://github.com/kjl56/personal-website/blob/main/.ruby-version)
 
-* Ruby version
 
+## Future Updates
++ Remove **wildcard** *SSL* certificate
+    - Replace with **Standard** *SSL* certificate
+    
+### ToDo
 * System dependencies
 
 * Configuration
@@ -20,5 +24,3 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
